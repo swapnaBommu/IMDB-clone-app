@@ -1,3 +1,100 @@
+body {
+  background-image: url("./images/bg4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-wrap: anywhere;
+  background-color: #530b77;
+}
+.container {
+  height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.movie-card {
+  width: 50%;
+  background: transparent;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  color: #fff;
+}
+.movie-card:hover {
+  box-shadow: 10px 5px 8px 10px #39234a;
+}
+.movie-card:not(:first-child) {
+  margin-top: 20px;
+}
+.movie-card:last-child {
+  margin-bottom: 50px;
+}
+.movie-card .left {
+  flex: 1;
+}
+.movie-card .left img {
+  height: 250px;
+}
+.movie-card .right {
+  position: relative;
+  flex: 10;
+}
+.movie-card .title {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.movie-card .plot {
+  margin-top: 20px;
+  padding: 0 20px;
+  font-size: 25px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 20px !important;
+}
+.footer .rating {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer button {
+  font-size: 15px;
+  padding: 7px 10px;
+  text-shadow: none;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+}
+.favourite-btn {
+  background-color: #2185d0;
+  color: #fff;
+}
+.unfavourite-btn {
+  background-color: #db2828;
+  color: #fff;
+  text-shadow: none;
+}
+.no-movies {
+  padding: 20px 0;
+  font-size: 20px;
+  color: #6d6d6d;
+}
+a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
 #navbar {
   background-color: #010b13;
   margin: 0px;

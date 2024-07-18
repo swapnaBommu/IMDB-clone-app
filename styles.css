@@ -30,8 +30,6 @@ body {
   color: #fff;
 }
 .movie-card:hover {
-  width: 110%;
-  height: 200px;
   box-shadow: 10px 5px 8px 10px #39234a;
 }
 .movie-card:not(:first-child) {
